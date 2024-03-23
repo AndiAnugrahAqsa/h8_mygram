@@ -72,10 +72,10 @@ func (u *UserEdit) ToModel() models.User {
 }
 
 type UserResponse struct {
-	ID        int        `json:"id"`
-	Username  string     `json:"username"`
-	Email     string     `json:"email"`
-	Age       int        `json:"age"`
+	ID        int        `json:"id,omitempty"`
+	Username  string     `json:"username,omitempty"`
+	Email     string     `json:"email,omitempty"`
+	Age       int        `json:"age,omitempty"`
 	CreatedAt *time.Time `json:"created_at,omitempty"`
 	UpdatedAt *time.Time `json:"updated_at,omitempty"`
 }

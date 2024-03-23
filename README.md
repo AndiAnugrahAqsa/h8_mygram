@@ -1,1 +1,1 @@
-Dokumentation Link : https://documenter.getpostman.com/view/23489044/2sA35A8Qfv
+Documentation Link : https://documenter.getpostman.com/view/23489044/2sA35A8Qfv
